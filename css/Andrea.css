@@ -1,0 +1,215 @@
+/*INICIO DEL SEGUNDO SECTION*/
+.section2 {
+	background-color : black;
+	height           : auto;
+	min-width        : 32rem;
+	padding          : 2rem 1rem;
+	position         : relative;
+	width            : 100%;
+}
+.section2__title {
+	height     : auto;
+	margin     : 5rem auto 0 auto;
+	min-width  : 28.8rem;
+	text-align : center;
+	width      : 90%;
+}
+.section2__title h2 {
+	color         : var(--ColorBlanco);
+	font-size     : 2.5rem;
+	font-weight   : bold;
+	line-height   : 2.6rem;
+	margin-bottom : 2.4rem;
+}
+.section2__title p {
+	color         : #808080;
+	font-size     : 1.4rem;
+	font-weight   : 500;
+	line-height   : 1.8rem;
+	margin-bottom : 3.2rem;
+}
+.section2_cards {
+	background-color : var(--CafeOscuro);
+	border-radius    : 0.5rem;
+	box-shadow       : 0 4px 8px rgba(0, 0, 0, .16);
+	min-height       : 15rem;
+	margin           : 1.5rem auto;
+	max-width        : 40rem;
+	min-width        : 28.8rem;
+	padding          : 1.6rem;
+	width            : 90%;
+}
+.section2_cards .icon-card {
+	background-position : center;
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	display             : inline-block;
+	height              : 2.5rem;
+	margin-bottom       : 1.5rem;
+	width               : 2.5rem;
+	margin-right: 25rem;
+}
+.section2_cards_title {
+	color         : var(--ColorBlanco);
+	font-size     : 1.8rem;
+	font-weight   : bold;
+	line-height   : 1rem;
+	text-align    : left ;
+	margin-bottom : 1.5rem;
+}
+.section2_cards_body {
+	color       : #808080;
+	font-size   : 1.4rem;
+	font-weight : 500;
+	line-height : 1.8rem;
+	text-align  : left;
+}
+.clock {
+	background-image : url(../img/clock\ 1.png);
+}
+.eye {
+	background-image : url(../img/eye\ 1.png);
+}
+.dollar-sign {
+	background-image : url(../img/dollar-sign\ 1.png);
+}
+.check-circle {
+	background-image : url(../img/check-circle\ 1.png);
+}
+
+/*************************
+#INICIO DEL TERCER SECTION
+**************************/
+.section3{
+	background-color: rgb(245, 245, 245);
+	height           : 95rem;
+	min-width        : 32rem;
+	position         : relative;
+	width            : 100%;
+}
+.section_contenido_imagen {
+	background-image    : url(../img/bitcoinbaby\ 1.png);
+	background-position : center;
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	height              : 40rem;
+	width               : 100%;
+}
+.section_contenido_imagen h2 {
+	color       : var(--ColorBlanco);
+	font-size   : 2.4rem;
+	font-weight : bold;
+	line-height : 2.6rem;
+	padding-top : 6rem;
+	text-align  : center;
+}
+.section_planes {
+	padding-bottom : 7rem;
+	text-align     : center;
+	width          : 100%;
+}
+.section_planes_titulo {
+	margin    : 0 auto 0 auto;
+	width     : 90%;
+}
+.section_planes_titulo h2 {
+	color       : black;
+	font-size   : 2.4rem;
+	font-weight : bold;
+	line-height : 2.6rem;
+	padding-top : 8.2rem;
+}
+.section_planes_titulo p {
+	color       : #757575;
+	font-size   : 1.4rem;
+	font-weight : 500;
+	line-height : 1.8rem;
+	padding-top : 2.4rem;
+}
+.plans__section_plans {
+	width                 : 100%;
+}
+.plans__container__card {
+	background-color  : var(--ColorBlanco);
+	border-radius     : 1.5rem;
+	box-shadow        : 0 4px 8px rgba(89, 73, 30, .16);
+	width             : 70%;
+	height            : 25rem;
+	margin			  : auto;
+	padding           : 0 1.3rem;
+	position          : relative;
+	max-width		  : 20rem;
+}
+.plans__plan {
+	border-radius : 0.8rem;
+	color         : var(--ColorBlanco);
+	font-size     : 1.2rem;
+	font-weight   : bold;
+	height        : 3.1rem;
+	line-height   : 14, 5.2rem;
+	text-align	  : center;
+	margin-bottom : 16px;
+	padding       : 8px;
+	position      : absolute;
+	width         : 10rem;
+
+	left	      : 25%;
+	bottom		  : 90%;
+}
+.recomendado {
+	background-color : var(--ColorNaranja);
+}
+.plans__container__plan {
+	color       : var(--CafeOscuro);
+
+	font-size   : 1.4rem;
+	font-weight : 700;
+	line-height : 1.8rem;
+	padding-top : 3.1rem;
+	text-align  : center;
+}
+.plans__container__precio {
+	font-size      : 5.2rem;
+	font-weight    : bolder;
+	text-align	   : center;
+	letter-spacing : -0.08rem;
+	padding        : 0.8rem 0 0.9rem 0;
+}
+.plans__container__precio::before {
+	content     : '$';
+	color       : #363636;
+	font-size   : 1.3rem;
+	font-weight : 500;
+	position    : absolute;
+	left        : 6rem;
+	top         : 7rem;
+}
+.plans__container__saving {
+	color         : #757575;
+	font-family   : "Inter", sans-serif;
+	font-size     : 1.2rem;
+	line-height   : 1.5rem;
+	margin-bottom : 1.6rem;
+	text-align: center;
+}
+.plans__container__boton {
+	align-items      : center;
+	background-color : var(--PielClaro);
+	border : 2px solid var(--ColorNaranja);
+	border-radius    : 0.4rem;
+	color            : var(--CafeOscuro);
+	display          : flex;
+	font-size        : 1.4rem;
+	font-weight      : 700;
+	height           : 4.8rem;
+	justify-content  : center;
+	margin           : 0 auto;
+	width            : 15.1rem;
+}
+.plans__container__boton span {
+	background-image    : url("../img/orange-right-arrow.svg");
+	background-position : center;
+	height              : 2rem;
+	margin-left         : 0.8rem;
+	width               : 2rem;
+}

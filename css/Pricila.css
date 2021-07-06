@@ -4,7 +4,7 @@
 	justify-content : center;
 	position: relative;
 	text-align: center;
-	   
+    min-width: 32rem; 
 }
 .logo{
     align-self : center;
@@ -21,13 +21,13 @@
 }
 .gene h1{
     color: var(--ColorBlanco);
-    font-size: 2rem;
+    font-size: 2.8rem;
 	font-weight: bold;
 	line-height: 2.6rem;
 }
 .gene p{
     color: var(--PielClaro);
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 	line-height: 1.8rem;
 	margin-top: 2.4rem;
 }
@@ -50,16 +50,14 @@
 }
 .arrow{
     background-repeat: no-repeat;
-    width: 1rem;
-    
+    width: 1rem;    
 }
-
 .backgrouds{
     background-color: var(--PielClaro);
 	width: 100%;
 	margin-top: -3.3rem;
+    height: 85rem;
 }
-
 .backgrounds-img{
     width: 17rem;
     height: 17rem;
@@ -72,7 +70,6 @@
 .twosection{
 	padding: 0rem 1rem 0rem 1rem;
 }
-
 .twosection h2 {
 	font-size: 2rem;
 	font-weight: bold;
@@ -80,7 +77,7 @@
 }
 .twosection p {
 	color: #757575;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	margin-top: 1rem;
 }
 .caja {
@@ -208,13 +205,13 @@
 	height: 15rem;
 	justify-content  : space-evenly;
 	width: 100%;
-	margin-top: 83rem;
 }
 .footer section {
 	align-items: center;
 	display: flex;
 	justify-content: center;
 	width: 20%;
+    text-align: left;
 }
 .derecha ul {
 	font-size: 1.2rem;
@@ -228,4 +225,7 @@
 .derecha a {
 	color: var(--ColorBlanco);
 	text-decoration : none;
+}
+.izquierda img{
+    width: 10rem;
 }
