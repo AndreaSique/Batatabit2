@@ -1,0 +1,75 @@
+/*INICIO DEL SEGUNDO SECTION*/
+.section2 {
+	background-color : black;
+	height           : auto;
+	min-width        : 32rem;
+	padding          : 2rem 1rem;
+	position         : relative;
+	width            : 100%;
+}
+.section2__title {
+	height     : auto;
+	margin     : 5rem auto 0 auto;
+	min-width  : 28.8rem;
+	text-align : center;
+	width      : 90%;
+}
+.section2__title h2 {
+	color         : var(--ColorBlanco);
+	font-size     : 2.5rem;
+	font-weight   : bold;
+	line-height   : 2.6rem;
+	margin-bottom : 2.4rem;
+}
+.section2__title p {
+	color         : #808080;
+	font-size     : 1.4rem;
+	font-weight   : 500;
+	line-height   : 1.8rem;
+	margin-bottom : 3.2rem;
+}
+.section2_cards {
+	background-color : var(--CafeOscuro);
+	border-radius    : 0.5rem;
+	box-shadow       : 0 4px 8px rgba(0, 0, 0, .16);
+	min-height       : 15rem;
+	margin           : 1.5rem auto;
+	max-width        : 40rem;
+	min-width        : 28.8rem;
+	padding          : 1.6rem;
+	width            : 90%;
+}
+.section2_cards .icon-card {
+	background-position : center;
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	display             : inline-block;
+	height              : 2.5rem;
+	margin-bottom       : 1.5rem;
+	width               : 2.5rem;
+}
+.section2_cards_title {
+	color         : var(--ColorBlanco);
+	font-size     : 1.8rem;
+	font-weight   : bold;
+	line-height   : 1rem;
+	margin-bottom : 1.5rem;
+}
+.section2_cards_body {
+	color       : #808080;
+	font-size   : 1.4rem;
+	font-weight : 500;
+	line-height : 1.8rem;
+}
+.clock {
+	background-image : url(../img/clock\ 1.png);
+}
+.eye {
+	background-image : url(../img/eye\ 1.png);
+}
+.dollar-sign {
+	background-image : url(../img/dollar-sign\ 1.png);
+}
+.check-circle {
+	background-image : url(../img/check-circle\ 1.png);
+}
