@@ -137,7 +137,6 @@
 	margin			  : auto;
 	padding           : 0 1.3rem;
 	position          : relative;
-	max-width		  : 20rem;
 }
 .plans__plan {
 	border-radius : 0.8rem;

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/Andrea.css">
     <link rel="stylesheet" href="css/Pricila.css">
     <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/laptop.css" media="(min-width: 1366px)">
 
     <!-- fonts section -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,8 +36,10 @@
                     <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
                 </div> 
             
-    
-                <article class="caja"> 
+            <article class="cajageneral">
+
+                
+                    <div class="cajamoneda">
                         <h2 class="moneda">Monedas</h2>
                         <article>
                             <div class="cuadros"> 
@@ -60,13 +63,16 @@
                                     <p class="right3">$ 4.96 <img class="imagen2" src="img/Flecha.png"></p>
                                 </div>
         
-                                <div class="flecha"><img  src="img/mdi_keyboard_arrow_down.png"></div>
                             </div>
                         </article>
-                                <div class="actu"><b>Actualizado:</b> 19 Julio 23:45</div>         
-                <article>
-                    <h2 class="moneda2">Comisiones</h2>
-                        <div class="cuadros"> 
+                                <div class="actu"><b>Actualizado:</b> 19 Julio 23:45</div> 
+                     </div>    
+                     
+                     
+                        <div class="cajamoneda2">
+                            <h2 class="moneda2">Comisiones</h2>
+                            <article>
+                                <div class="cuadros"> 
                                     <div class="contenedor">
                                         <p class="left">Bitrade </p>
                                         <p class="right">$ 12.96 </p>
@@ -83,12 +89,12 @@
                                         <p class="left3">Coinext </p>
                                         <p class="right3">$ 14.96 </p>
                                     </div>
-                                    <div class="flecha2"><img  src="img/mdi_keyboard_arrow_down.png"></div>
-                                </article>
-                                    <div class="actu2"><b>Actualizado:</b> 19 Julio 23:48</div>
                                 </div>
-                            </div>
-                        </article>
+                            </article>
+                                    <div class="actu2"><b>Actualizado:</b> 19 Julio 23:48</div> 
+                         </div> 
+                    
+             </article>
     </section> 
 
 <!--INICIO DEL SEGUNDO SECTION-->
@@ -133,17 +139,42 @@
             </div>
         </article>
 
+
+    <article class="caja_general_section_planes">
+        <article class="plans__section_plans">
+            <article class="plans__container__card">
+                <div class="plans__container__info">
+                    <h3 class="plans__container__plan">Pago Anual</h3>
+                    <p class="plans__container__precio">5</p>
+                    <p class="plans__container__saving">*Plan básico para mantenerte informado.</p>
+                    <button class="plans__container__boton">Escoger este<span></span></button>
+                </div>
+            </article>
+        </article>
+
         <article class="plans__section_plans">
             <article class="plans__container__card">
                 <p class="plans__plan recomendado">Recomendado</p>
                 <div class="plans__container__info">
                     <h3 class="plans__container__plan">Pago Anual</h3>
-                    <p class="plans__container__precio">99</p>
+                    <p class="plans__container__precio">49</p>
                     <p class="plans__container__saving">*Ahorras $129 comparado al plan mensual.</p>
                     <button class="plans__container__boton">Escoger este<span></span></button>
                 </div>
             </article>
         </article>
+
+        <article class="plans__section_plans">
+            <article class="plans__container__card">
+                <div class="plans__container__info">
+                    <h3 class="plans__container__plan">Acceso de por vida</h3>
+                    <p class="plans__container__precio">99</p>
+                    <p class="plans__container__saving">*Ahorras $999+ comparado al plan anual.</p>
+                    <button class="plans__container__boton">Escoger este<span></span></button>
+                </div>
+            </article>
+        </article>
+    </article>
     </section>
 
 <!--INICIO DEL FOOTER-->

@@ -1,0 +1,77 @@
+.body {
+    max-width: 90rem;
+    margin: auto;
+}
+.gene{
+    padding: 0rem 26rem 0rem 26rem;
+}
+.gene p{
+    font-size: 1.4rem;
+}
+.twosection{
+    padding: 0rem 26rem 0rem 26rem;
+}
+.actu , .actu2{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-right: 5.6rem;
+}
+.cajageneral{
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caja, .caja2{
+    display: flex;
+    flex-direction: column;
+}
+.moneda, .moneda2{
+    text-align: center;
+    margin-right: 3.5rem;
+}
+.cajamoneda, .cajamoneda2{
+    width: 40%;
+}
+.backgrouds{
+    height: 70rem;
+}
+.left, .right, .left2, .right2, .left3,.right3{
+    text-align: left;
+}
+/*INICIO DEL SEGUNDO SECTION*/
+
+.section2_caja_contenidos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.section2_cards{
+    width: 45%;
+    margin: auto;
+    margin: 1rem;
+}
+.caja_general_section_planes{
+    display: flex;
+    flex-direction: row;
+}
+.plans__section_plans{
+    width: 35%;
+    margin: auto;
+}
+.plans__container__card{
+    width: 80%;
+}
+.section3{
+    height: 85rem;
+}
+.plans__container__precio::before {
+    left: 7rem;
+}
+
