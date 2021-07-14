@@ -56,7 +56,7 @@
     background-color: var(--PielClaro);
 	width: 100%;
 	margin-top: -3.3rem;
-    height: 85rem;
+    height: 90rem;
 }
 .backgrounds-img{
     width: 17rem;
@@ -88,7 +88,7 @@
 	color: var(--ColorNaranja);
 	font-size: 1.8rem;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	margin: 3.2rem 0rem 1.2rem 0.6rem;
 }
 .cuadros{
@@ -170,7 +170,7 @@
 	color: var(--ColorCeleste);
 	font-size: 1.8rem;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	margin: 3.2rem 0rem 1.2rem 7px;
 }
 .flecha{
@@ -183,16 +183,20 @@
 	margin-right: 19rem;
 }
 .actu{
+	width: 50%;
 	font-size: 1rem;
 	border-radius: 0.8rem;
-	margin-top: 6rem;
+	margin-top: 2rem;
+	margin-left: 7rem;
 	padding: 0.8rem;
 	background-color : var(--ColorPiel); 
 }
 .actu2{
+	width: 50%;
 	font-size: 1rem;
 	border-radius: 0.8rem;
-	margin-top: 6rem;
+	margin-top: 2rem;
+	margin-left: 7rem;
 	padding: 0.8rem;
 	background-color : var(--BlancoAzulado); 	
 }

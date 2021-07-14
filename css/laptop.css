@@ -25,10 +25,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.caja, .caja2{
-    display: flex;
-    flex-direction: column;
-}
 .moneda, .moneda2{
     text-align: center;
     margin-right: 3.5rem;
@@ -43,7 +39,9 @@
     text-align: left;
 }
 /*INICIO DEL SEGUNDO SECTION*/
-
+.section2{
+    height: 55rem;
+}
 .section2_caja_contenidos{
     width: 90%;
     margin: auto;
@@ -54,15 +52,20 @@
 }
 .section2_cards{
     width: 45%;
+    height: auto;
     margin: auto;
     margin: 1rem;
 }
+
+/*INICIO DEL TERCER SECTION*/
 .caja_general_section_planes{
     display: flex;
     flex-direction: row;
+    width: 90%;
+    margin: auto;
 }
 .plans__section_plans{
-    width: 35%;
+    width: 30%;
     margin: auto;
 }
 .plans__container__card{
@@ -72,6 +75,10 @@
     height: 85rem;
 }
 .plans__container__precio::before {
-    left: 7rem;
+    left: 6rem;
+    top: 6.5rem;
+}
+.plans__plan{
+    left: 23%;
 }
 

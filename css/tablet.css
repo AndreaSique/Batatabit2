@@ -11,6 +11,27 @@
 .twosection h2 {
 	font-size: 2.5rem;
 }
+.cajageneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.actu , .actu2{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 2.8rem;
+}
+.cajamoneda, .cajamoneda2{
+    width: 50%;
+}
+.backgrouds{
+    height: 65rem;
+}
+.moneda, .moneda2{
+    text-align: center;
+    margin-right: 3.5rem;
+}
 .left {
     display: flex;
     flex-direction: row;
@@ -19,11 +40,78 @@
     display: flex;
     flex-direction: row;
 }
+.left, .right, .left2, .right2, .left3,.right3{
+    text-align: left;
+}
+/*INICIO DEL SEGUNDO SECTION*/
+.section2_caja_contenidos{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.section2{
+    height: 63rem;
+}
+.section2_cards{
+    width: 45%;
+    height: 17rem;
+    margin: auto;
+    margin: 0.6rem;
+}
+.section2_cards_title{
+    font-size: 1.5rem;
+}
+.section2_cards_body{
+    font-size: 1.2rem;
+}
 /*INICIO DEL TERCER SECTION*/
+.section3{
+    height: 85rem;
+}
+.section_planes_titulo{
+    padding: 0 5rem
+}
 .section_contenido_imagen{
     height: 29.9rem;
     padding-top: 8rem;
 }
 .section_contenido_imagen h2{
     font-size: 4rem;
+}
+.caja_general_section_planes{
+    display: flex;
+    flex-direction: row;
+}
+.plans__section_plans{
+    width: 30%;
+    margin: auto;
+}
+.plans__container__card{
+    width: 100%;
+    height: 22rem;
+    padding: 1rem;
+}
+.plans__plan{
+    left: 15%;
+    bottom: 88%;
+}
+.plans__container__plan{
+    font-size: 1rem;
+}
+.plans__container__precio{
+    font-size: 4rem;
+}
+.plans__container__precio::before {
+    left: 4rem;
+}
+.plans__container__saving{
+    font-size: 1rem;
+}
+.plans__container__boton{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
 }

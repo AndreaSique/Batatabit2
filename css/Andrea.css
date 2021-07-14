@@ -31,12 +31,9 @@
 	background-color : var(--CafeOscuro);
 	border-radius    : 0.5rem;
 	box-shadow       : 0 4px 8px rgba(0, 0, 0, .16);
-	min-height       : 15rem;
 	margin           : 1.5rem auto;
-	max-width        : 40rem;
-	min-width        : 28.8rem;
 	padding          : 1.6rem;
-	width            : 90%;
+	width            : 100%;
 }
 .section2_cards .icon-card {
 	background-position : center;
@@ -46,7 +43,6 @@
 	height              : 2.5rem;
 	margin-bottom       : 1.5rem;
 	width               : 2.5rem;
-	margin-right: 25rem;
 }
 .section2_cards_title {
 	color         : var(--ColorBlanco);
@@ -81,7 +77,7 @@
 **************************/
 .section3{
 	background-color: rgb(245, 245, 245);
-	height           : 95rem;
+	height           : 100rem;
 	min-width        : 32rem;
 	position         : relative;
 	width            : 100%;
@@ -110,6 +106,7 @@
 .section_planes_titulo {
 	margin    : 0 auto 0 auto;
 	width     : 90%;
+	height: 16rem;
 }
 .section_planes_titulo h2 {
 	color       : black;
@@ -125,17 +122,28 @@
 	line-height : 1.8rem;
 	padding-top : 2.4rem;
 }
+.caja_general_section_planes{
+	width				  : 100%;
+	height                : auto;
+	display               : flex;
+	gap                   : 1rem;
+	overflow-x            : scroll;
+	scroll-snap-type      : x proximity;
+	
+}
 .plans__section_plans {
 	width                 : 100%;
+	height			      : 30rem;
 }
 .plans__container__card {
 	background-color  : var(--ColorBlanco);
 	border-radius     : 1.5rem;
 	box-shadow        : 0 4px 8px rgba(89, 73, 30, .16);
-	width             : 70%;
+	width             : 20rem;
 	height            : 25rem;
 	margin			  : auto;
-	padding           : 0 1.3rem;
+	margin-top		  : 3rem;
+	
 	position          : relative;
 }
 .plans__plan {
@@ -159,7 +167,6 @@
 }
 .plans__container__plan {
 	color       : var(--CafeOscuro);
-
 	font-size   : 1.4rem;
 	font-weight : 700;
 	line-height : 1.8rem;
