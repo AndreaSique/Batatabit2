@@ -1,5 +1,5 @@
 .body {
-    max-width: 50rem;
+    max-width: 100%;
     margin: auto;
 }
 .gene{
@@ -67,6 +67,9 @@
 .section2_cards_body{
     font-size: 1.2rem;
 }
+.clock, .eye, .dollar-sign, .check-circle{
+    margin-right: 15rem;
+}
 /*INICIO DEL TERCER SECTION*/
 .section3{
     height: 85rem;
@@ -82,8 +85,7 @@
     font-size: 4rem;
 }
 .caja_general_section_planes{
-    display: flex;
-    flex-direction: row;
+    overflow: hidden;
 }
 .plans__section_plans{
     width: 30%;

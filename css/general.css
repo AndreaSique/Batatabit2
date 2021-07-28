@@ -23,6 +23,6 @@ body{
 # Este es el cuerpo de la pagina
 *********************************/
 .body {
-    max-width: 37.5rem;
+    max-width: 100%;
     margin: auto;
 }
