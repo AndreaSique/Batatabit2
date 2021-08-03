@@ -1,6 +1,7 @@
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portafolio III Período  
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://static.wixstatic.com/media/d1b317_30d85a06c73e4bc7bf0952829a1cddb1~mv1.png/v1/crop/x_0,y_4,w_775,h_349/fill/w_408,h_172,al_c,q_85,usm_0.66_1.00_0.01/d1b317_30d85a06c73e4bc7bf0952829a1cddb1~mv1.webp)
+![](https://www.filepicker.io/api/file/X3O3nWaR16Wiw1vbloQq)
 
 
 ## Anteportada
@@ -15,6 +16,35 @@
 - Laboratorio 2
 ###### Profesor
 - Jossue Emmanuel Fuentes
+
+# Índice
+
+Portada.........................................................1
+
+Anteportada................................................2
+
+Índice..............................................................3
+
+Objetivos.......................................................4
+
+Batatabit-Móvil...........................................5
+
+Batatabit-Tablet..........................................6
+
+Batatabit-Desktop......................................7
+
+Objetivo Futuro............................................8
+
+# Objetivos
+
+###### Saber
+Aplicar de manera correcta los métodos para realizar las buenas prácticas en el proyecto.
+
+###### Saber hacer
+Manejar con facilidad el uso de las diferentes tecnologías como flex-box y usar de manera correcta todas las etiquetas que css nos brinda.
+
+###### Saber ser y estar
+Adquirir el hábito de trabajar cada día diferentes partes del proyecto para que al finalizar solo se tengan que agregar detalles y perfeccionarlo.
 
 ## Generales
 Este proyecto fue realizado en el tercer período del curso de computación en donde se nos brindó un wireframe para Batatabit en cuál esta dividido en 4 secciones, para ser trabajado en equipos y cada uno con su rama.
@@ -33,5 +63,9 @@ Luego se haber concluido con el wireframe versión teléfono, se trabajó la ver
 - Trabajado por Andrea del Pilar Sique Racanac.
 - La segunda sección se realizó utilizando flex-box, iconos e información proporcionados en el wireframe.
 - La tercera sección se realizó utilizando 3 cajas una para el titulo principal, otra para el subtitulo y en la última caja se encuentran los planes que ofrece.
+
+## Objetivo Futuros
+
+- Establecer un plan de organización en donde podamos practicar y realizar nuestros proyectos fuera de clase y convertirlo en un hábito diario para mejorar nuestras habilidades en la programación de distintos lenguajes.
 
 [Vista Previa](https://andreasique.github.io/Batatabit2/ "Vista Previa")
